@@ -1,0 +1,16 @@
+---
+layout: page
+title: ""
+---
+
+<p>Having trouble using Odysseus? Then check out the guides below.</p>
+
+<!-- TODO implement search -->
+
+<ul>
+  {% for guide in site.guides %}
+    <li><a href="{{ guide.url | relative_url }}">{{ guide.title }}</a></li>
+  {% endfor %}
+</ul>
+
+<p>Still not helpful? Then check out the questions [asked here](https://github.com/alcinnz/Odysseus-support/issues), or ask your own question.</p>
