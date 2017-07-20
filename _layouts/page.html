@@ -1,0 +1,88 @@
+---
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ page.title }}</title>
+  <style>
+body {
+    font: 14px sans-serif; /* Native sans-serif */
+    color: #333;
+}
+body.branded {
+    background: url(oddysseus:vitruvian-wave.svg) repeat-x;
+    background-position: 0 80%;
+}
+main {
+    max-width: 600px; /* almost 3 uppercase alphabets worth */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 90vh
+}
+main h1, main h2, main h3, main h4 {
+    text-align: center;
+}
+/* These heading sizes are taken from the elementary Gtk theme
+    https://github.com/elementary/stylesheet/blob/master/gtk-3.0/granite-widgets.css#L378 .
+    They have been converted into percentages so that I could
+        increase the base font size.  */
+h1 {
+    font-size: 240%;
+}
+h2 {
+    font-weight: 300;
+    font-size: 180%;
+}
+h3 {
+    font-size: 110%;
+}
+h4 {
+    color: alpha(#333, 0.7);
+    font-weight: bold;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.4);
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+    
+    /* Not from oddysseus:butterick.css, but makes images more legible. */
+    img {max-width: 100%;}
+/* Header design - somewhat emulates headerbar and tabbars */
+    
+header h1 {
+    float: left;
+    align: left;
+}
+header h2 {
+    float: right;
+    align: right;
+}
+header nav {
+    display: flex;
+    clear: both;
+    background: lightgray;
+}
+header nav > * {
+    border: thin solid gray;
+    flex-grow: 1;
+    text-align: center;
+    padding: 4px;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Odysseus</h1>
+    <h2>{{ page.header }}</h2>
+    <nav>
+      <a href="https://github.com/alcinnz/Odysseus/">GitHub</a>
+      <a href='{{ "/" | relative_url }}'>About/Overview</a>
+      <a href='{{ "/blog.html" | relative_url }}'>Blog</a>
+      <strong>Support</strong>
+      <strong>Developer Info</strong>
+    </nav>
+  </header>
+  {{ content }}
+</body>
+</html>
