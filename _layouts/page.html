@@ -50,6 +50,14 @@ h4 {
     img {max-width: 100%;}
 /* Header design - somewhat emulates headerbar and tabbars */
     
+header {
+    background: lightgray;
+    margin: -10px;
+    padding: 0 10px;
+}
+header + p {
+    margin-top: 40px;
+}
 header h1 {
     float: left;
     align: left;
@@ -61,7 +69,7 @@ header h2 {
 header nav {
     display: flex;
     clear: both;
-    background: lightgray;
+    margin: -10px;
 }
 header nav > * {
     border: thin solid gray;
