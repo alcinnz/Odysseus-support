@@ -1,0 +1,11 @@
+baseurl: "/Odysseus-support"
+
+title: Odyssues Support
+description: > # this means to ignore newlines until "baseurl:"
+  Having trouble with the Odysseus web browser? Get help here
+  
+exclude: [README.md]
+
+collections:
+    guides:
+        output: false
