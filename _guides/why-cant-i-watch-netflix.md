@@ -12,7 +12,7 @@ Not only that but I (<i>Adrian Cochrane</i>) am [morally opposed](https://defect
 1. Running software on your computer I or any other independant person cannot review the source code for in case it has backdoors or other security problems
 2. Restricting how you use your computer
 
-It's a sad state of affairs that these morals only breaks most of the websites legally redistributing videos. So please [check out](https://vodo.net/) [legal services](https://vimeo.com/ondemand/) which do [respect these morals](https://cloud.blender.org/).
+It's a sad state of affairs that these morals only breaks most of the websites legally redistributing videos. So please [check out](https://vodo.net/) [legal services](https://vimeo.com/ondemand/) which do [respect these morals](https://cloud.blender.org/open-projects/).
 
 ---
 
