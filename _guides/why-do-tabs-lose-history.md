@@ -19,3 +19,7 @@ When starting up your browser, duplicating tabs, or restoring tabs.
 * Calling <code>history.pushState</code> in JavaScript. Got security errors.
 * Treating the history list as mutable. Only causes errors to be reported behind the scenes without fixing the problem. 
 * Considered manually navigating to previous pages. Concluded that'll only horribly confuse WebKit. 
+
+---
+
+1. Specifically WebKitGTK appears to have done their part, but I'm waiting on Debian to package that commit in a software update.
