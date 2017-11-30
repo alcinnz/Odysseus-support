@@ -8,4 +8,4 @@ exclude: [README.md]
 
 collections:
     guides:
-        output: false
+        output: true
