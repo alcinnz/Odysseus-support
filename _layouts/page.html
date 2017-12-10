@@ -9,22 +9,13 @@
 body {
     font: 14px sans-serif; /* Native sans-serif */
     color: #333;
+    padding: 0; margin: 0;
 }
 body.branded {
     background: url(oddysseus:vitruvian-wave.svg) repeat-x;
     background-position: 0 80%;
 }
-main {
-    max-width: 600px; /* almost 3 uppercase alphabets worth */
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 90vh
-}
-main h1, main h2, main h3, main h4 {
-    text-align: center;
-}
+main {padding: 5px;}
 /* These heading sizes are taken from the elementary Gtk theme
     https://github.com/elementary/stylesheet/blob/master/gtk-3.0/granite-widgets.css#L378 .
     They have been converted into percentages so that I could
@@ -121,6 +112,6 @@ header nav > *:after {
       <strong class="icon-developer">Developer Info</strong>
     </nav>
   </header>
-  {{ content }}
+  <main>{{ content }}</main>
 </body>
 </html>
