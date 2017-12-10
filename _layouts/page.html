@@ -74,18 +74,17 @@ header {
 header + p, header + h1, header + h2, header + h3 {
     margin-top: 40px;
 }
-header h1 {
-    float: left;
-    align: left;
+header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 header h2 {
-    float: right;
-    align: right;
+    font-style: italic;
 }
 header nav {
     display: flex;
-    clear: both;
-    margin: -10px;
+    margin: 0;
 }
 header nav > * {
     border: thin solid gray;
