@@ -3,6 +3,6 @@ layout: page
 title: How do I find I page I've visited before.
 ---
 
-Unfortunately you'll just have to retrace your steps as that feature is not supported yet. However there are plans drawn up and much of the underlying infrastructure has been sucessfully implemented. The design goal there is to make it easy to skim down the page to find exactly the page you're looking for. 
+All pages you've visited are accessible at [odysseus:history](odysseus:history), which is linked to from the newtab page and the gear menu. That page lists your browser history from the time you've updated to version 1.1.0 in reverse chronological order, whilst highlighting changes in hours, days, months, and years to make it easier to skim.
 
-So while history isn't supported yet, Odysseus should reasonably soon have the best history viewer around!
+Alternatively you can attempt to recall a web address you've visited before and Odysseus will suggest what it might have been.
