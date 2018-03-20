@@ -60,5 +60,4 @@ At it's most basic, the searchbox allows you to enter words to see all history r
   <tr>
     <th>query <code>NOT</code> query2</th>
     <td>Matches records which match <em>query</em> but not <em>query2</em>.</td>
-  </tr>
-</table>
+  </tr></table>
