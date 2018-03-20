@@ -16,7 +16,7 @@ In the topright is written the time-range of all the history records visible on 
 
 At it's most basic, the searchbox allows you to enter words to see all history records which shares at least one of those words, ignoring most suffixes. However other query forms are supported as well:
 
-<style>code {background: #aaa; font: monospace; font-weight: normal;}</code>
+<style>code {background: #aaa; font: monospace; font-weight: normal;}</style>
 
 <table>
   <tr>
