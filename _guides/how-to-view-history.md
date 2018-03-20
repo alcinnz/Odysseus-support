@@ -47,7 +47,7 @@ At it's most basic, the searchbox allows you to enter words to see all history r
   </tr>
   <tr>
     <th><code>title:(</code>terms...<code>)</code></th>
-    <td>As per uri: but matches against the title of the visited pages.</p>
+    <td>As per uri: but matches against the title of the visited pages.</td>
   </tr>
   <tr>
     <th>query <code>AND</code> query2</th>
