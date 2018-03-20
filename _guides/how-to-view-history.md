@@ -44,7 +44,7 @@ At it's most basic, the searchbox allows you to enter words to see all history r
         <p>If your matching just one term, the parenthesese are optional.</p></td>
   </tr>
   <tr>
-    <th><code>title:(</code>terms...</code>)</code></th>
+    <th><code>title:(</code>terms...<code>)</code></th>
     <td>As per uri: but matches against the title of the visited pages.</p>
   </tr>
   <tr>
